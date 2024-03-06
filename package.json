@@ -1,0 +1,22 @@
+{
+  "name": "cs-554-lab-6",
+  "version": "1.0.0",
+  "description": "CS-554 lab 6 assignment (GraphQL Server)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rishi Kiran Reddy Bobbili (CWID - 20010588)",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.2.2",
+    "@apollo/server": "^4.9.3",
+    "axios": "^1.5.0",
+    "bluebird": "^3.7.2",
+    "blueimp-md5": "^2.19.0",
+    "graphql": "^16.8.1",
+    "node-redis": "^0.1.7",
+    "redis": "4.6.10"
+  }
+}
